@@ -8,6 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Please enter your name" VerticalAlignment="Top" FontSize="24" >
+
+        </TextBlock>
+        <TextBox x:Name="uerName" HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="248"/>
+        <Button x:Name="ok" Content="OK" HorizontalAlignment="Left" Margin="263,47,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
